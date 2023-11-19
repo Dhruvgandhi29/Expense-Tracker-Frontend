@@ -1,0 +1,64 @@
+/* Updated for a dark-themed login form with dark blue gradient */
+
+.login-page {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    to right,
+    #070720,
+    #16224f
+  ); /* Dark blue gradient background */
+  color: #b8b8b8; /* Light text color for better contrast */
+}
+
+.login-form {
+  background-color: #1d1d42; /* Darker background color */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  width: 80%; /* Increased width for a larger form */
+  max-width: 400px; /* Maximum width to prevent excessive stretching */
+}
+
+.login-form h1 {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  margin: 30px 0;
+  font-size: 2.5em;
+  color: #b8b8b8;
+}
+
+.login-form .ant-form-item-label label {
+  color: #b8b8b8 !important; /* Light text color for labels */
+  font-size: 1.2em;
+}
+
+.login-form button {
+  background: linear-gradient(
+    to right,
+    #2196f3,
+    #0d47a1
+  ); /* Dark blue gradient for the button */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1.1em;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.login-form button:hover {
+  background: linear-gradient(
+    to right,
+    #0d47a1,
+    #002171
+  ); /* Slightly darker blue on hover */
+}

@@ -1,0 +1,31 @@
+/* HeaderStyles.css */
+
+.navbar {
+  background-color: #1a1a1a !important; /* Dark background color */
+}
+
+.navbar .navbar-brand {
+  color: #ffffff !important; /* White text color */
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  color: #ffffff !important; /* White text color */
+}
+
+.navbar h6 {
+  margin-top: 0px;
+  margin-right: 20px;
+  color: #ffffff !important; /* White text color */
+}
+
+.navbar button {
+  background-color: #d32f2f; /* Dark red button color */
+  color: #ffffff !important; /* White text color */
+}
+
+.navbar button:hover {
+  background-color: #b71c1c; /* Slightly darker red on hover */
+}

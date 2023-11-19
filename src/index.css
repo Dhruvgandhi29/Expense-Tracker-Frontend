@@ -1,0 +1,75 @@
+/* @import "antd/dist/antd.min.css"; */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(
+    to right,
+    #000000,
+    #1a1a1a
+  ); /* Even darker gradient of black */
+  color: #ffffff; /* Light text color */
+}
+
+.content {
+  height: 100%;
+}
+
+/* Transaction page */
+.filters {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.2); /* Light shadow for contrast */
+  margin-bottom: 10px;
+  background: linear-gradient(
+    to right,
+    #071a2b,
+    #00111a
+  ); /* Darker bluish gradient background */
+}
+
+/* Ant Design icons */
+.switch-icons {
+  border: 1px solid #333; /* Dark border color */
+  border-radius: 5px;
+  padding: 10px 15px;
+  background: linear-gradient(
+    to right,
+    #071a2b,
+    #00111a
+  ); /* Darker bluish gradient background */
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.2); /* Light shadow for contrast */
+}
+
+.anticon svg {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.active-icon {
+  color: #2196f3; /* Light blue color for active icon */
+}
+
+.inactive-icon {
+  color: #888888; /* Light gray color for inactive icon */
+}
+
+.filter-tab .ant-select-selector {
+  width: 150px !important;
+  background: linear-gradient(
+    to right,
+    #071a2b,
+    #00111a
+  ); /* Darker bluish gradient background */
+  color: #0d47a1; /* Light text color */
+  border: 1px solid #333; /* Dark border color */
+}
+
+.filter-tab .ant-select-selector:hover {
+  border-color: #555; /* Darker border color on hover */
+}
