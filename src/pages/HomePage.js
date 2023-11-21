@@ -146,6 +146,7 @@ const HomePage = () => {
       }
       setShowModal(false);
       setEditable(null);
+      window.location.reload();
     } catch (error) {
       setLoading(false);
       message.error("Faild to add transection");
@@ -261,10 +262,9 @@ const HomePage = () => {
             <button
               type="submit"
               className="btn btn-primary"
-              onClick={() => {
-                window.location.reload();
-              }}
+              onClick={() => {}}
             >
+              {" "}
               SAVE
             </button>
           </div>
