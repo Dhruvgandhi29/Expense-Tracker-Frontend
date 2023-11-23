@@ -49,7 +49,7 @@ const Analytics = ({ allTransection }) => {
       <div className="row m-3">
         <div className="col-md-3">
           <div className="card">
-            <div className="card-header">
+            <div className="card-header text-dark">
               Total Transactions : {totalTransaction}
             </div>
             <div className="card-body">
@@ -78,7 +78,7 @@ const Analytics = ({ allTransection }) => {
         </div>
         <div className="col-md-3">
           <div className="card">
-            <div className="card-header">Total TurnOver : {totalTurnover}</div>
+            <div className="card-header text-dark">Total TurnOver : {totalTurnover}</div>
             <div className="card-body">
               <h5 className="text-success">Income : {totalIncomeTurnover}</h5>
               <h5 className="text-danger">Expense : {totalExpenseTurnover}</h5>
