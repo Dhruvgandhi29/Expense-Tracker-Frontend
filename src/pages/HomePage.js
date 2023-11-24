@@ -60,7 +60,7 @@ const HomePage = () => {
             className="mx-2"
             onClick={() => {
               handleDelete(record);
-              window.location.reload();
+              
             }}
           />
         </div>
@@ -108,6 +108,7 @@ const HomePage = () => {
       );
       setLoading(false);
       message.success("Transaction Deleted!");
+      window.location.reload();
     } catch (error) {
       setLoading(false);
       console.log(error);
